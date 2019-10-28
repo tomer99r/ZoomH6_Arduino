@@ -1,0 +1,19 @@
+{
+  "name": "Zoom_H6_Remote",
+  "version": "1.0.0-rc",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "keywords": "ZOOM,H6,Remote",
+  "description": "Library for controling Zoom H6 audio recorder with Arduino framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomer99r/ZoomH6_Arduino.git"
+  },
+  "authors": [
+    {
+      "name": "Tomer Rubinstein",
+      "email": "tomer99r@gmail.com",
+      "maintainer": true
+    }
+  ]
+}
