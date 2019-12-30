@@ -108,7 +108,7 @@ bool ZoomH6Remote::sendCommand(byte primary, byte secondary, uint32_t gap, byte*
 
   if (gap) delay(gap);
 
-  if (!writeWithReply(releaseCom, 2, nullptr, 3)) return false;
+  writeWithReply(releaseCom, 2, nullptr, 3);
 
   return true;
 }
